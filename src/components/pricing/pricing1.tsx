@@ -110,7 +110,7 @@ export default function Pricing1() {
         >
           <p className="text-sm sm:text-base lg:text-sm text-black text-center lg:text-left">
             Explore our carefully crafted subscription plans designed to meet
-            the unique requirements of businesses at every stage. Whether you're
+            the unique requirements of businesses at every stage. Whether you&apos;re
             just starting or looking to scale, choose from our Starter,
             Business, or Premium plans, each packed with features to empower
             your business with Oasis. Select the plan that aligns perfectly with

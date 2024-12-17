@@ -30,7 +30,7 @@ export default function Team() {
         }
       );
 
-      cardsRef.current.forEach((card, index) => {
+      cardsRef.current.forEach((card,) => {
         if (card) {
           gsap.fromTo(
             card,

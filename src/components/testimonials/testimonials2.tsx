@@ -20,7 +20,7 @@ export default function Testimonials2() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      testimonialRefs.current.forEach((testimonial, index) => {
+      testimonialRefs.current.forEach((testimonial, ) => {
         if (testimonial) {
           gsap.fromTo(
             testimonial,

@@ -19,7 +19,7 @@ export default function Feature2() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      featureRefs.current.forEach((feature, index) => {
+      featureRefs.current.forEach((feature, ) => {
         if (feature) {
           gsap.fromTo(
             feature,

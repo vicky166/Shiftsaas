@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function blog3() {
+export default function Blog3() { 
   const [openIndex, setOpenIndex] = useState<number>(-1);
 
   const faqs = [
@@ -32,7 +32,7 @@ export default function blog3() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      faqRefs.current.forEach((faqCard, index) => {
+      faqRefs.current.forEach((faqCard) => {
         if (faqCard) {
           gsap.fromTo(
             faqCard,

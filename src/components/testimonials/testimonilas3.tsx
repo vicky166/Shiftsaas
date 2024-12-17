@@ -37,7 +37,7 @@ export default function Testimonials3() {
 
   useEffect(() => {
     const ctx = gsap.context(() => {
-      faqRefs.current.forEach((faqCard, index) => {
+      faqRefs.current.forEach((faqCard, ) => {
         if (faqCard) {
           gsap.fromTo(
             faqCard,
