@@ -16,7 +16,7 @@ export default function Testimonial() {
   useEffect(() => {
     const ctx = gsap.context(() => {
       gsap.fromTo(
-        headingRef.current,
+        headingRef.current, 
         { y: 50, opacity: 0, scale: 0.9 },
         {
           y: 0,
