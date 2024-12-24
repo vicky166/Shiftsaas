@@ -46,7 +46,7 @@ export default function Feature2() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="container mx-auto px-4 py-12">
+    <section ref={sectionRef} className="container  mx-auto px-4 py-12">
       <div className="flex flex-col md:flex-row justify-between items-stretch gap-6 min-h-[300px]">
         {features.map((feature, index) => (
           <div
